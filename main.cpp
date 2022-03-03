@@ -4,7 +4,7 @@
 using namespace std;
 int process (int x, int y, int & max, double & avg) 
 {
-//Iztrūkst kods!!!!!!!!!!!!!!!
+
 }
 int main() {
 	int a,b,liel;
