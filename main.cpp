@@ -4,7 +4,24 @@
 using namespace std;
 int process (int x, int y, int & max, double & avg) 
 {
-//Iztrūkst kods!!!!!!!!!!!!!!!
+
+ avg = x/2.0+y/2.0;
+
+  
+  
+if (x > y) {
+max = x;
+  return max - y;
+}	
+else {
+max = y;
+ return max - x; 
+}
+
+
+  
+
+  
 }
 int main() {
 	int a,b,liel;
